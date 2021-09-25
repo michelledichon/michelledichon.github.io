@@ -23,10 +23,11 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/timeline.css" rel="stylesheet">
+  <link href="assets/css/tab.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
   <!-- =======================================================
   * Template Name: Folio - v4.5.0
@@ -42,7 +43,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      <a href="index.html" class="logo"><img src="assets/img/logo2.png" alt="" class="img-fluid"></a>
       <!-- Uncomment below if you prefer to use an text logo -->
       <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
 
@@ -83,8 +84,8 @@
     <div class="container">
       <div class="hero-content">
         <h1 id="greet-hello" style="visibility:visible;">Hello,</h1>
-        <h1>I am <span class="typed" data-typed-items="Michelle, Icon Designer, Social Media Manager, Freelancer"></span></h1>
-        <p>Icon Designer, Social Media Manager, Freelancer</p>
+        <h1>I am <span class="typed" data-typed-items="Michelle, Social Media Manager, Graphic Designer, Content Writer, Freelancer"></span></h1>
+        <p>Social Media Manager, Graphic Designer, Content Writer, Freelancer</p>
 
         <ul class="list-unstyled list-social">
           <li><a href="https://www.facebook.com/mich.dichon11/"><i class="bi bi-facebook"></i></a></li>
@@ -114,8 +115,10 @@
           <div class="col-lg-7">
             <div class="about-descr">
 
-              <p class="p-heading">im a ux /ui designer austin based who loves clean, simple & unique design. i also enjoy crafting brand identities, icons, & ilustration work. </p>
-              <p class="separator">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.English person.</p>
+              <p class="p-heading">Who is michelle ?</p>
+              <p class="separator">She is an independent and a strong women who is currently studying in college for her family.</p>
+              <p class="separator">She has experience managing social media platforms and is proficient in Microsoft Office Suite as well as graphics and multimedia design.
+                She has a backrground on writing a content, article and a journal in school.</p>
 
             </div>
 
@@ -126,172 +129,197 @@
 
     <!-- ======= Services Section ======= -->
     <div id="services">
-      <!-- ====== Resume ====== -->
-      <section class='resume section-padding' data-scroll-index='2' id='resume'>
-        <div class='container'>
-        <div class='section-head'>
-        <h3>My Resume</h3>
+      <div class="container skills">
+        <div class="services-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-briefcase"></i>
+                <span>UI/UX DESIGN</span>
+                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-card-checklist"></i>
+                <span>BRAND IDENTITY</span>
+                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-bar-chart"></i>
+                <span>WEB DESIGN</span>
+                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-binoculars"></i>
+                <span>MOBILE APPS</span>
+                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-brightness-high"></i>
+                <span>Analytics</span>
+                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-calendar4-week"></i>
+                <span>PHOTOGRAPHY</span>
+                <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
-        <!-- ====== Resume ====== -->
-        <div class='row'>
-        <div class='col-md-offset-1 col-md-10'>
-        <div class='tabs'>
-        <!-- tabs-icon -->
-        <div class='tabs-icon'>
-        <ul>
-        <li class='active' id='tab-1'>
-        <i aria-hidden='true' class='fa fa-briefcase'></i>
-        <h6 class='sm-title'>EXPERIENCE</h6>
-        </li>
-        <li id='tab-2'>
-        <i aria-hidden='true' class='fa fa-graduation-cap'></i>
-        <h6 class='sm-title'>EDUCATION</h6>
-        </li>
-        <li id='tab-3'>
-        <i aria-hidden='true' class='fa fa-podcast'></i>
-        <h6 class='sm-title'>Training</h6>
-        </li>
-        </ul>
+      </div>
+
+      <div class="container text-center">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-secondary" style="border-radius: 15px 0 0 15px;" data-tab-target="#education">Education</button>
+          <button type="button" class="btn btn-secondary" data-tab-target="#experience">Experience</button>
+          <button type="button" class="btn btn-secondary" style="border-radius: 0 15px 15px 0;" data-tab-target="#training">Training</button>
         </div>
-        <div class='resume-content'>
-        <!-- tabs-content -->
-        <div class='item active' id='tab-1-content'>
-        <div class='content'>
-        <div class='main-icon'>
-        <span>
-        <i aria-hidden='true' class='fa fa-briefcase'></i>
-        </span>
+      </div>
+      <div class="container">
+        <!--#Education here-->
+        <div id="education" data-tab-content class="active">
+          <div class="wrapper">
+            <div class="center-line">
+              <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+            </div>
+            <div class="row row-1">
+              <section>
+                <i class="icon fas fa-university"></i>
+                <div class="details">
+                  <span class="title">Southern Leyte State University Main</span>
+                  <span>June 2018 - Present</span>
+                </div>
+                <p><em>Concepcion St, Sogod, Southern Leyte</em></p>
+                <p>Bachelors of Science in Food Technology and is currently a 4th year student.</p>
+                
+              </section>
+            </div>
+            <div class="row row-2">
+              <section>
+                <i class="icon fas fa-school"></i>
+                <div class="details">
+                  <span class="title">Mahaplag National High School</span>
+                  <span>June 2012 - June 2018</span>
+                </div>
+                <p><em>Brgy. San Isidro Mahaplag Leyte</em></p>
+                <p>Technical-Vocational-Livelihood as a Cookery Strand in my Senior High</p>
+              </section>
+            </div>
+            <div class="row row-1">
+              <section>
+                <i class="icon fas fa-book-open"></i>
+                <div class="details">
+                  <span class="title">Mahaplag Central School</span>
+                  <span>June 2006 - May 2012</span>
+                </div>
+                <p><em>Brgy. Poblacion Mahaplag Leyte</em></p>
+                <p>Studied in Elementary Level for 6 years</p>
+              </section>
+            </div>
+          </div>
         </div>
-        <div class='row'>
-        <!-- Left - Start - Content -->
-        <div class='col-md-6'>
-        <div class='inf text-right'>
-        <span class='date'>2020 - 2021</span>
+        <!--#Experience here-->
+        <div id="experience" data-tab-content>
+          <div class="wrapper">
+            <div class="center-line">
+              <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+            </div>
+            <div class="row row-1">
+              <section>
+                <i class="icon fas fa-photo-video"></i>
+                <div class="details">
+                  <span class="title">Photo and Video Editing</span>
+                </div>
+                <p><em>Photoshop, Canva, and Sony Vegas Pro</em></p>
+                <p>I have knowledge in photo and video editing using the tools specified above. I can deliver quality products for the clients' demand.</p>
+                
+              </section>
+            </div>
+            <div class="row row-2">
+              <section>
+                <i class="icon fas fa-hashtag"></i>
+                <div class="details">
+                  <span class="title">Social Media Ad Management</span>
+                </div>
+                <p><em>Facebook, Instagram, Twitter or LinkedIn</em></p>
+                <p>I can deliver great service for Ad management in different platform for the customers need.</p>
+              </section>
+            </div>
+            <div class="row row-1">
+              <section>
+                <i class="icon fas fa-feather-alt"></i>
+                <div class="details">
+                  <span class="title">Content Writer</span>
+                </div>
+                <p><em>Facebook, Twitter or Blogs</em></p>
+                <p>I can convert viewers to earning and sales by writing contents that catches customers for the client.</p>
+              </section>
+            </div>
+          </div>
         </div>
+        <!--#Training here-->
+        <div id="training" data-tab-content>
+          <div class="wrapper">
+            <div class="center-line">
+              <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+            </div>
+            <div class="row row-1">
+              <section>
+                <i class="icon fas fa-home"></i>
+                <div class="details">
+                  <span class="title">Southern Leyte State University Main</span>
+                  <span>June 2018 - Present</span>
+                </div>
+                <p><em>Concepcion St, Sogod, Southern Leyte</em></p>
+                <p>Bachelors of Science in Food Technology and is currently a 4th year student.</p>
+                
+              </section>
+            </div>
+            <div class="row row-2">
+              <section>
+                <i class="icon fas fa-star"></i>
+                <div class="details">
+                  <span class="title">Mahaplag National High School</span>
+                  <span>June 2012 - June 2018</span>
+                </div>
+                <p><em>Brgy. San Isidro Mahaplag Leyte</em></p>
+                <p>Technical-Vocational-Livelihood as a Cookery Strand in my Senior High</p>
+              </section>
+            </div>
+            <div class="row row-1">
+              <section>
+                <i class="icon fas fa-rocket"></i>
+                <div class="details">
+                  <span class="title">Mahaplag Central School</span>
+                  <span>June 2006 - May 2012</span>
+                </div>
+                <p><em>Brgy. Poblacion Mahaplag Leyte</em></p>
+                <p>Studied in Elementary Level for 6 years</p>
+              </section>
+            </div>
+          </div>
         </div>
-        <div class='col-md-6'>
-        <div class='cont pb-50'>
-        <h6 class='sm-title'>INNOVATIONS FOR COMMUNITY HEALTH</h6>
-        <p style='text-align:justify'>MARKETING AND BUSINESS DEVELOPMENT CONSULTANT</p>
-        <p>&#8226; Social Media Management</p>
-        <p>&#8226; Established Visual branding across channels</p>
-        <p>&#8226; Content Creation</p>
-        <p>&#8226; Employee Branding</p>
-        <p>&#8226; Lead Generation</p>
-        </div>
-        </div>
-        <!-- Left - End - Content -->
-        <!-- Right - Start - Content -->
-        <div class='col-md-6 col-md-push-6'>
-        <div class='inf'>
-        <span class='date'>2020 - 2021 </span>
-        </div>
-        </div>
-        <div class='col-md-6 col-md-pull-6'>
-        <div class='cont text-right pb-50'>
-        <h6 class='sm-title'>BOOKS N STUFF, INCORPORATED</h6>
-        <p>SENIOR MARKETING EXECUTIVE</p>
-        <p> Social Media Management &#8226;</p>
-        <p>Content Creation &#8226; </p>
-        <p>Developed Marketing Strategies &#8226;</p>
-        <p>Customer Relationship Management/ Customer Care &#8226;</p>
-        <p> Calendar Management &#8226;</p>
-        <p> Appointment Setter &#8226;</p>
-        <p> Data Entry &#8226;</p>
-        </div>
-        </div>
-        <!-- Right - END - Content -->
-        <!-- Left - Start - Content -->
-        <div class='col-md-6'>
-        <div class='inf text-right'>
-        <span class='date'>2018-2019 </span>
-        </div>
-        </div>
-        <div class='col-md-6'>
-        <div class='cont pb-50'>
-        <h6 class='sm-title'>HumanKind Design Org. </h6>
-        <p>ACCOUNT MANAGER</p>
-        <p>&#8226; Project Management</p>
-        <p>&#8226; Design Thinking Planner</p>
-        <p>&#8226; Schedule/ Calendar Management</p>
-        </div>
-        </div>
-        <!-- Left - End - Content -->
-        </div>
-        </div>
-        </div>
-        <!-- tabs-content -->
-        <div class='item' id='tab-2-content'>
-        <div class='content'>
-        <div class='main-icon'>
-        <span><i aria-hidden='true' class='fa fa-graduation-cap'></i></span>
-        </div>
-        <div class='row'>
-        <div class='col-md-6'>
-        <div class='inf text-right'>
-        <span class='date'>2018</span>
-        </div>
-        </div>
-        <div class='col-md-6'>
-        <div class='cont pb-50'>
-        <h6 class='sm-title'>Polytechnic University of the Philippines </h6>
-        <p>Bachelor in Advertising and Public Relations </p>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        <!-- tabs-content -->
-        <div class='item' id='tab-3-content'>
-        <div class='content'>
-        <div class='main-icon'>
-        <span><i aria-hidden='true' class='fa fa-podcast'></i></span>
-        </div>
-        <div class='row'>
-        <div class='col-md-6'>
-        <div class='inf text-right'>
-        <span class='date'>2020</span>
-        </div>
-        </div>
-        <div class='col-md-6'>
-        <div class='cont pb-50'>
-        <h6 class='sm-title'>Social Media Management 101 Course</h6>
-        <p>Coursebelt</p>
-        </div>
-        </div>
-        <div class='col-md-6 col-md-push-6'>
-        <div class='inf'>
-        <span class='date'>2017</span>
-        </div>
-        </div>
-        <div class='col-md-6 col-md-pull-6'>
-        <div class='cont text-right pb-50'>
-        <h6 class='sm-title'>Videography Training</h6>
-        <p>SONY</p>
-        </div>
-        </div>
-        <div class='col-md-6'>
-        <div class='inf text-right'>
-        <span class='date'>2012</span>
-        </div>
-        </div>
-        <div class='col-md-6'>
-        <div class='cont pb-50'>
-        <h6 class='sm-title'>Computer Literacy Training </h6>
-        <p>Diliman Computer Technology Institute </p>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        <div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-      </section>
+      </div>
+   
+    
     </div><!-- End Services Section -->
 
     <!-- ======= Portfolio Section ======= -->
@@ -561,12 +589,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-  <!-- Minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
+  <script src="assets/js/tab.js"></script>
 </body>
 
 </html>

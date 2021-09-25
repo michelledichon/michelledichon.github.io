@@ -172,7 +172,7 @@
       backSpeed: 50,
       backDelay: 100,
     });
-    initialSetup();
+    hello();
     /*
     setTimeout(function(){
       document.getElementById('greet-hello').style.visibility = 'hidden';
@@ -185,13 +185,14 @@
     */
   }
 
-  function initialSetup(){
+  function hello(){
     setTimeout(function(){
       document.getElementById('greet-hello').style.visibility = 'hidden';
       if(document.getElementById('greet-hello').style.visibility == 'hidden'){
         setTimeout(function(){
           document.getElementById('greet-hello').style.visibility = 'visible';
-        },11000)
+          hello();
+        },14000)
       }
     }, 2000);
   }
