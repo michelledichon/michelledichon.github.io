@@ -67,7 +67,7 @@ p {
 }
 
 .btn {
-  background: #333;
+  background: rgb(86, 114, 30);
   border: medium none;
   border-radius: 0;
   color: #fff;
@@ -80,6 +80,7 @@ p {
 
 .btn:hover, .btn:focus {
   color: #fff;
+  background: rgb(71, 94, 24);
 }
 
 .padDiv {
