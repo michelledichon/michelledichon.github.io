@@ -6,7 +6,7 @@
 */
 (function() {
   "use strict";
-
+  
   /**
    * Easy selector helper function
    */
@@ -233,6 +233,8 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
+    filterOnInit();
+
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
@@ -258,6 +260,21 @@
 
   });
 
+  function filterOnInit(){
+    let graphic = document.getElementById('btngraphic');
+    let social = document.getElementById('btnsocial');
+    
+    graphic.addEventListener('click', e=>{
+      let tabGraphic = document.getElementById('tabGraphic');
+      tabGraphic.dispatchEvent(new Event('click'));
+    });
+
+    social.addEventListener('click', e=>{
+      let tabSocial = document.getElementById('tabSocial');
+      tabSocial.dispatchEvent(new Event('click'));
+    })
+  }
+
   /**
    * Initiate portfolio lightbox 
    */
@@ -281,5 +298,6 @@
       clickable: true
     }
   });
+
 
 })()

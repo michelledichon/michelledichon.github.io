@@ -67,20 +67,23 @@ p {
 }
 
 .btn {
-  background: rgb(86, 114, 30);
+  /* background: rgb(86, 114, 30); */
+  background: #f5deabee;
   border: medium none;
   border-radius: 0;
-  color: #fff;
+  color: rgb(75, 75, 75);
   font-size: 12px;
   height: 50px;
   line-height: 50px;
   padding: 0 30px;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .btn:hover, .btn:focus {
   color: #fff;
-  background: rgb(71, 94, 24);
+  /* background: rgb(71, 94, 24); */
+  background: #c9b58bee;
 }
 
 .padDiv {
@@ -534,7 +537,8 @@ p {
 # Services
 --------------------------------------------------------------*/
 #services {
-  background: #f7f7f7;
+  /* background: #f7f7f7; */
+  background: rgba(226, 255, 163,.6);
   position: relative;
   padding-bottom: 80px;
 }
@@ -1098,7 +1102,7 @@ blockquote {
   }
 
   #about .about-descr .separator {
-    max-width: 100%;
+    max-width:   100%;
     margin-bottom: 0;
   }
 
@@ -1454,4 +1458,72 @@ blockquote {
     display: inline-block;
     margin-right: 0;
   }
+}
+.text-justify{
+  text-align: justify;
+}
+
+.about-title{
+  font-family: 'Nunito', sans-serif !important;
+  font-size: 40px !important;
+}
+.about-content{
+  font-family: 'Nunito', sans-serif !important;
+  font-size: 18px !important;
+}
+.display-block{
+  display: inline-flex;
+}
+.swiper-slide{
+  width: 20% !important;
+  margin: 20px;
+}
+.icon-container{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.title-container{
+  text-align: center;
+}
+.services-block p{
+  text-align: justify;
+}
+.tabbing{
+  margin-top: 60px;
+}
+.services-title{
+  text-align: center;
+  padding-top: 90px;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.icon-container i{
+  color: #a79875ee;
+}
+
+#training .img-wrapper img{
+  object-fit: cover;
+  width: 100%;
+}
+#portfolio .portfolio-wrapper .btn{
+  background: transparent;
+  margin: 10px 0;
+  outline: none;
+}
+#portfolio .portfolio-wrapper .btn:hover, #portfolio .portfolio-wrapper .btn:focus{
+  background: rgb(223, 222, 222) !important;
+  color: #333 !important;
+  box-shadow: none !important;
+}
+.portfolio-info a i{
+  color: grey;
+  font-size: 20px;
+}
+.portfolio-info a i:hover{
+  color: rgb(99, 98, 98);
+}
+.portfolio-info{
+  text-align: right;
+  margin: 5px 5px;
+
 }
